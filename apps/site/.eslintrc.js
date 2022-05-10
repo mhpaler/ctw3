@@ -1,1 +1,1 @@
-module.exports = require("@ets/config/eslint-preset");
+module.exports = require("@ctw3/config/eslint-preset");

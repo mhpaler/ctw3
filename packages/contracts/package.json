@@ -1,5 +1,5 @@
 {
-  "name": "@ets/contracts",
+  "name": "@ctw3/contracts",
   "license": "MIT",
   "version": "1.0.0",
   "scripts": {
@@ -18,7 +18,7 @@
     "@ethersproject/bytes": "^5.0.0",
     "@ethersproject/hardware-wallets": "^5.0.14",
     "@ethersproject/providers": "^5.0.0",
-    "@ets/tsconfig": "workspace:*",
+    "@ctw3/tsconfig": "workspace:*",
     "@firebase/app-types": "~0.7.0",
     "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
     "@nomiclabs/hardhat-etherscan": "^2.1.8",

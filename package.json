@@ -1,12 +1,12 @@
 {
-  "name": "@ets/monorepo",
+  "name": "@ctw3/monorepo",
   "version": "1.0.0",
-  "author": "ETS",
+  "author": "ctw3",
   "private": true,
   "keywords": [
     "ethereum",
     "react",
-    "ets",
+    "ctw3",
     "tag",
     "tagging",
     "workspaces",
