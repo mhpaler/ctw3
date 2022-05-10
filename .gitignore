@@ -1,0 +1,66 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+/.pnp
+.pnp.js
+
+# misc
+.DS_Store
+*.pem
+.vscode
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+.turbo
+
+# typescript
+*.tsbuildinfo
+
+node_modules
+packages/**/data
+
+# Hardhat files
+packages/contracts/*.txt
+packages/contracts/cache*
+packages/contracts/artifacts/
+packages/contracts/deployments/
+packages/contracts/.openzeppelin/*
+
+# subgraph
+packages/subgraph/subgraph.yaml
+packages/subgraph/src/generated/*
+packages/subgraph/abi/*
+
+# Frontend Files
+
+# testing
+packages/*/coverage
+
+# next.js
+out
+dist
+.next
+
+# production
+packages/*/build
+apps/*/build
+
+# contracts
+# packages/app/src/contracts/*
+apps/app/artifacts/@openzeppelin/*
+apps/app/artifacts/build-info/*
+apps/app/artifacts/hardhat/*
+apps/app/artifacts/**/*.dbg.json
