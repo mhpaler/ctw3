@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "@ctw3/app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,6 +14,8 @@
     "react-dom": "18.1.0"
   },
   "devDependencies": {
+    "@ctw3/config": "workspace:*",
+    "@ctw3/tsconfig": "workspace:*",
     "@types/node": "^17.0.25",
     "@types/react": "^17.0.37",
     "@types/react-dom": "^17.0.11",
